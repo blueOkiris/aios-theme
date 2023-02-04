@@ -1,0 +1,67 @@
+[submodule "zsh-completions"]
+	path = zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "auto-pairs"]
+	path = auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "coc.nvim"]
+	path = coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+	branch = release
+[submodule "vim"]
+	path = vim
+	url = https://github.com/dracula/vim
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim-devicons"]
+	path = vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "ultisnips"]
+	path = ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "vim-snippets"]
+	path = vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "nerdcommenter"]
+	path = nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
+[submodule "vim-startify"]
+	path = vim-startify
+	url = https://github.com/mhinz/vim-startify
+[submodule "markdown-preview.nvim"]
+	path = markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim
+[submodule "vimtex"]
+	path = vimtex
+	url = https://github.com/lervag/vimtex
+[submodule "deoplete.nvim"]
+	path = deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "deoplete-clang"]
+	path = deoplete-clang
+	url = https://github.com/deoplete-plugins/deoplete-clang
+[submodule "ale"]
+	path = ale
+	url = https://github.com/dense-analysis/ale
+[submodule "nvim-lspconfig"]
+	path = nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig
+[submodule "rust-tools.nvim"]
+	path = rust-tools.nvim
+	url = https://github.com/simrat39/rust-tools.nvim
+[submodule "lightline.vim"]
+	path = lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim-godot"]
+	path = vim-godot
+	url = https://github.com/habamax/vim-godot
+[submodule "zig.vim"]
+	path = zig.vim
+	url = https://github.com/ziglang/zig.vim
+[submodule "i3-alternating-layout"]
+	path = i3-alternating-layout
+	url = https://github.com/olemartinorg/i3-alternating-layout
