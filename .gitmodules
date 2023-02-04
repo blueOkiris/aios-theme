@@ -59,12 +59,12 @@
 [submodule "zig.vim"]
 	path = zig.vim
 	url = https://github.com/ziglang/zig.vim
-[submodule "i3-alternating-layout"]
-	path = i3-alternating-layout
-	url = https://github.com/olemartinorg/i3-alternating-layout
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf
 [submodule "vimtex"]
 	path = vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "i3-alternating-layout"]
+	path = i3-alternating-layout
+	url = https://github.com/olemartinorg/i3-alternating-layout
