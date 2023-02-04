@@ -4,7 +4,7 @@
 # - The script that the aios-themer.service will run
 # - Checks for themes for all users and installs defaults if they do not exist
 
-DEF_FLDR=/etc/default/aios-themer
+DEF_FLDR=/etc/default/aios-theme
 DEF_APPS=(alacritty appimaged firefox libreoffice-fresh-basic mupdf neovim thunar)
 DEF_APP_FLDR=/etc/default/apps
 NVIM_PLUGINS=(ale auto-pairs coc.nvim deoplete-clang deoplete.nvim fzf.vim lightline.vim markdown-preview.nvim nerdcommenter nerdtree nvim-lspconfig rust-tools.nvim ultisnips vim vim-devicons vim-godot vim-snippets vim-startify vimtex zig.vim)
