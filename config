@@ -28,8 +28,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 # Useful applications
-bindsym $mod+Shift+s exec --no-startup-id "aipman run gnome-screenshot -- -i"
-bindsym $mod+Return exec --no-startup-id "aipman run alacritty"
+bindsym $mod+Shift+s exec --no-startup-id gnome-screenshot -i
+bindsym $mod+Return exec --no-startup-id aipman run alacritty
 bindsym $mod+s exec "rofi -modi drun,run -show drun"
 
 # Window Management
@@ -130,4 +130,7 @@ exec_always --no-startup-id blueman-applet
 
 exec_always --no-startup-id sh -c 'if [ "$USER" = "liveuser" ]; then aipman run mupdf Documents/aios-manual.pdf; fi'
 exec_always --no-startup-id sh -c 'if [ "$USER" = "liveuser" ]; then aipman run alacritty; fi'
+
+# Make calamares pop up
+for_window [class="calamares"] floating enable
 
