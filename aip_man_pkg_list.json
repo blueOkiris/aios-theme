@@ -1,0 +1,39 @@
+[
+  {
+    "name": "appimaged",
+    "version": "745",
+    "description": "appimaged is an optional daemon that watches locations like ~/bin and ~/Downloads for AppImages and if it detects some, registers them with the system, so that they show up in the menu, have their icons show up, MIME types associated, etc.",
+    "url": "https://github.com/probonopd/go-appimage/releases/download/continuous/appimaged-745-x86_64.AppImage"
+  },
+  {
+    "name": "alacritty",
+    "version": "0.11.0",
+    "description": "A fast, cross-platform, OpenGL terminal emulator",
+    "url": "https://github.com/blueOkiris/aip-man-pkgs/releases/download/alacritty-0.11.0/alacritty-x86_64-0.11.0.AppImage"
+  },
+  {
+    "name": "libreoffice-fresh-basic",
+    "version": "7.4.4.2",
+    "description": "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.",
+    "url": "https://appimages.libreitalia.org/LibreOffice-fresh.basic-x86_64.AppImage"
+  },
+  {
+    "name": "firefox",
+    "version": "109",
+    "description": "Browse the World Wide Web",
+    "url": "https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox/firefox-109.0.r20230112150232-x86_64.AppImage"
+  },
+  {
+    "name": "neovim",
+    "version": "0.8.2",
+    "description": "Neovim is a refactor of the Vim text editor designed to encourage new features, advanced UIs, and powerful extensions.",
+    "url": "https://github.com/neovim/neovim/releases/download/v0.8.2/nvim.appimage"
+  },
+  {
+      "name": "mupdf",
+      "version": "1.21.1",
+      "description": "A simple pdf reader.",
+      "url": "https://github.com/blueOkiris/aip-man-pkgs/releases/download/mupdf-1.21.1/mupdf-x86_64-1.21.1.AppImage"
+  }
+]
+
