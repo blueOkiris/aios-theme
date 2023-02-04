@@ -65,3 +65,6 @@
 [submodule "fzf"]
 	path = fzf
 	url = https://github.com/junegunn/fzf
+[submodule "vimtex"]
+	path = vimtex
+	url = https://github.com/lervag/vimtex
