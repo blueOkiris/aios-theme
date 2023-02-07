@@ -132,5 +132,5 @@ exec_always --no-startup-id sh -c 'if [ "$USER" = "liveuser" ]; then aipman run 
 exec_always --no-startup-id sh -c 'if [ "$USER" = "liveuser" ]; then aipman run alacritty; fi'
 
 # Make calamares pop up
-for_window [class="calamares"] floating enable
+for_window [class="anaconda"] floating enable
 
