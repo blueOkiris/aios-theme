@@ -12,7 +12,7 @@ NVIM_PLUGINS=(ale auto-pairs coc.nvim deoplete-clang deoplete.nvim fzf.vim light
 # For each user in the home dir, do the check
 getent passwd | while IFS=: read -r name password uid gid gecos home shell; do
     # Install neovim for root user bc it's useful
-    if [ "$name" != "root" ]; then
+    if [ "$name" = "root" ]; then
         if [ ! -d "/root/Applications" ]; then
             mkdir -p /root/Applications
             chown -R $name:$name /root/Applications
@@ -35,6 +35,12 @@ getent passwd | while IFS=: read -r name password uid gid gecos home shell; do
     # Skip users that aren't PEOPLE users
     if [[ "$home" != "/home"* ]]; then
         continue
+    fi
+
+    # Change to zsh
+    if [[ "$shell" != *"zsh" ]]; then
+        chsh -s /usr/bin/zsh $name
+        reboot
     fi
 
     # Zsh theming requires Zsh obvs
