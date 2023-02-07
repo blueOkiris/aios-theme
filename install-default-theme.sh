@@ -131,6 +131,13 @@ getent passwd | while IFS=: read -r name password uid gid gecos home shell; do
         chown -R $name:$name $home/Applications/i3-alternating-layout
     fi
 
+    # Rofi
+    if [ ! -f "$home/.config/rofi" ]; then
+        mkdir -p $home/.config/rofi
+        cp $DEF_FLDR/config.rasi $home/.config/rofi
+        chown -R $name:$name $home/.config/rofi
+    fi
+
     # Alacritty
     if [ ! -f "$home/.config/alacritty/alacritty.yml" ]; then
         mkdir -p $home/.config/alacritty
