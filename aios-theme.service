@@ -1,6 +1,6 @@
 [Unit]
 Description=AIOS Theming Agent
-Before=lightdm.service
+Before=gdm.service
 
 [Service]
 ExecStart=/usr/bin/install-default-theme
