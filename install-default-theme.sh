@@ -83,6 +83,7 @@ getent passwd | while IFS=: read -r name password uid gid gecos home shell; do
                 chmod +x $home/Applications/$plugin*
             fi
         done
+        su $name -c "aipman run appimaged"
     fi
 
     if [ -f "$home/Applications/neovim"* ]; then
