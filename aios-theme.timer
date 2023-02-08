@@ -1,0 +1,11 @@
+[Unit]
+Description=Runs aios-theme over and over
+
+[Timer]
+OnBootSec=1s
+Unit=aios-theme.service
+OnUnitInactiveSec=5s
+
+[Install]
+WantedBy=basic.target
+
